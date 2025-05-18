@@ -6,7 +6,7 @@
 
 ## Purpose
 
-**`Learning = self-directed systems + protocol discipline + public artifacts`**
+### **`Learning = self-directed systems + protocol discipline + public artifacts`**
 
 > Maximize your leverage. Build your cognitive stack. Ship high-signal work.
 
@@ -66,7 +66,7 @@ Each folder in `loop/Week-X/` should contain a `pacer.yaml` or markdown journal 
 ## Usage Instructions
 
 1. **Fork this template** → rename to `USERNAME/[course|domain]` or `USERNAME/track-[course|domain]`
-   e.g.: track-cs50x, track-ml-zero, track-rust-os
+   e.g.: `track-cs50x`, `track-ml-zero`, `track-rust-os`
 
 2. **Optional: Enable GitHub Pages**
    → Serve `outputs/` as public-facing artifacts
