@@ -1,0 +1,74 @@
+# Week 01 — [Insert Topic Title Here]
+
+> Track: [track-name]  
+> Week: 01  
+> Protocol: Second Mind OS  
+> Format: Verified Thinking Notes + Schema-Driven Capture
+
+## OBJECTIVE
+
+- **Core Concept(s)**: What is being learned this week?
+- **Outcome**: What am I expected to produce or understand?
+- **Protocol Scope**: This note follows the PACER loop → it serves as a **Check + Reflect** anchor.
+
+## CONCEPT MAP / SCHEMA
+
+> Use this section to describe the concept using:
+
+- Bullet schemas
+- Diagrams (Mermaid or ASCII)
+- Causal chains
+
+```mermaid
+graph TD
+  A[High-Level Concept] --> B[Subcomponent 1]
+  B --> C[Example / Application]
+  A --> D[Subcomponent 2]
+```
+
+## MENTAL MODELS
+
+| Concept         | Model / Metaphor                   | First-principle Breakdown         |
+| --------------- | ---------------------------------- | --------------------------------- |
+| \[e.g. Pointer] | "Memory arrow → points to a box"   | Address vs. value distinction     |
+| \[e.g. Stack]   | Stack = vertical tray, LIFO system | Memory ordering via frame context |
+
+## ⌬ INSIGHT CLAIMS
+
+List insights that are **non-obvious**, and **must be claimed explicitly**, not just mentioned.
+
+| ⌬ ID | Claim Statement                              | Trigger Point | Verified In               |
+| ---- | -------------------------------------------- | ------------- | ------------------------- |
+| 001  | "A pointer holds an address, not the value"  | Lecture Q\&A  | `logs/2025-05-16-log.md`  |
+| 002  | "Refactoring reveals abstraction boundaries" | During pset   | `loop/week-01/pacer.yaml` |
+
+## 🚧 BLOCKERS / AMBIGUITIES
+
+> List anything unclear, buggy, unresolved. These can be escalated into logs.
+
+- Why is stack memory auto-freed, but heap not?
+- Pointer vs reference distinction in C vs Rust?
+
+## 🧪 TESTS / SELF-CHECKS
+
+> Add one or more test questions to check understanding
+
+1. Draw memory diagram of `int *p = &x;`, label addresses and values
+2. When does segmentation fault occur when using pointers?
+
+## 📃 TRACE LOG / LEARNING PATH
+
+- [x] Watched Lecture 1
+- [x] Read `Pointers in C` (CS50 Notes)
+- [x] Completed `pset1-Mario`
+- [ ] Created public output reflection
+- [ ] Shared ⌬ card with claim `001`
+
+## 🔁 LINKED PROTOCOL LOOPS
+
+| Loop Phase | Linked File                      |
+| ---------- | -------------------------------- |
+| Plan       | `loop/week-01/pacer.yaml`        |
+| Reflect    | `logs/2025-05-16-pointer-log.md` |
+
+> _Powered by [**Second Mind OS Lab**](https://github.com/secondmindlab) — Protocol-first learning system for cognitive leverage._

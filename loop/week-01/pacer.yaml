@@ -1,0 +1,55 @@
+# loop/week-01/pacer.yaml
+
+loop_id: week-01
+title: '[PROJECT / PS]: <Name of Project, Problem Set, or Concept>'
+date_started: 2025-05-18
+date_finished: null
+status: 'in-progress' # or: done, skipped, blocked
+
+pacer:
+  plan:
+    objective: '<What is the goal of this unit?>'
+    scope: '<What does it include/exclude?>'
+    constraints: '<Time, resource, context limits>'
+
+  act:
+    actions_taken:
+      - '<Study content, read paper, build small app, etc>'
+      - '<What experiments or projects were done?>'
+    tools_used: '<IDE, language, library, notebook...>'
+
+  check:
+    self_test: '<How was the work tested or verified?>'
+    key_mistakes:
+      - '<What went wrong or revealed blindspots?>'
+      - '<Debugging or concept gaps?>'
+
+  edit:
+    what_was_refactored:
+      - '<Code cleanups, structural rewrites, simplified model>'
+    simplifications: '<How was the solution simplified?>'
+
+  reflect:
+    insight:
+      - '<What clicked? What got internalized?>'
+    blockers:
+      - '<What still feels unclear or painful?>'
+    claim_link: 'claims/2025-05-18-week01-claim.md'
+
+  delta:
+    skill_gain: "<What concrete skill moved from can't → can?>"
+    concept_gain: '<What mental model was added or reshaped?>'
+    productivity_lever: '<What tool/process made future work easier?>'
+
+  time_spent:
+    total_hours: 4.5
+    breakdown:
+      - plan: 0.5
+      - act: 2.5
+      - check: 1
+      - edit: 0.3
+      - reflect: 0.2
+
+  meta:
+    spH: 'High / Medium / Low'
+    notes: 'Lock-in achieved fast due to <X>, but refactor was slow → bottleneck in Check phase.'
