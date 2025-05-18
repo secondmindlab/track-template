@@ -49,7 +49,7 @@ graph TD
   F --> G[Emit JSON to Personal Site]
 ```
 
-#### 🔁 P.A.C.E.R. Loop Protocol
+### 🔁 P.A.C.E.R. Loop Protocol
 
 Each learning unit runs through the **P.A.C.E.R. loop** — a minimal feedback protocol for deliberate skill formation:
 
@@ -78,7 +78,7 @@ Each folder in `loop/Week-X/` should contain a `pacer.yaml` or markdown journal 
    - Push deliverables to `outputs/`
    - Write blockers / insight logs in `logs/`
 
-#### Example
+#### Example:
 
 ```bash
 track-cs50x/
@@ -88,11 +88,11 @@ track-cs50x/
 ├── logs/2025-05-16-pointer-log.md   # Blocker resolution
 ```
 
-#### Naming Convention (Optional)
+#### Naming Convention (Optional):
 
 Track repos should follow:
 
-```txt
+```
 [course|domain|theme]
 track-[course|domain|theme]
 ```
