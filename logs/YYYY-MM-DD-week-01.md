@@ -10,7 +10,7 @@
 
 - `docs/week-01.md`
 - `loop/week-01/pacer.yaml`
-- `outputs/pset1-mario.md`
+- `outputs/week-01-output.md`
 
 ## 2. 🚧 Blockers / Bugs / Blindspots
 
@@ -41,7 +41,7 @@
 
 ## 6. Next Steps
 
-- Update `outputs/pset1-mario.md` with fixed version + ⌬ claims
+- Update `outputs/week-01-output.md` with fixed version + ⌬ claims
 - Start new PACER loop for Week-02
 - Share selected insight card to LinkedIn ("⌬ Debug = trace > theory")
 

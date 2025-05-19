@@ -1,4 +1,4 @@
-# Output — Week 01
+# Output — Week 01: [Topic]
 
 ## Task
 
@@ -68,7 +68,7 @@ Brief description — what did you make / produce?
 - ⌬ Claim: `Memory tracing = 4-layer address mental model`
 - Situation: `While debugging segfault`
 - Impact: `Accelerated understanding of stack/heap`
-- Verified: [`logs/2025-05-16-pointer-log.md`](../logs/2025-05-16-pointer-log.md)
+- Verified: [`logs/YYYY-MM-DD-week-01.md`](../logs/YYYY-MM-DD-week-01.md)
 
 ---
 
@@ -76,8 +76,9 @@ Brief description — what did you make / produce?
 
 - Links to doc, forums, other outputs
 
-> 📏 **Protocol Tag**: `Verified: logs/2025-05-xx-pointer-log.md`
->
+> 📏 **Protocol Tag**: `Verified: logs/YYYY-MM-DD-week-01.md`  
 > 📣 ⌬ Claim Origin: `"Pointer tracing = mental model of memory layers"`
->
+
+---
+
 > _Powered by Second Mind OS_

@@ -1,4 +1,4 @@
-# 🪞 Reflect — Week 01
+# Reflect — Week 01: [Topic]
 
 ## What clicked?
 
@@ -12,7 +12,7 @@
 
 - <What would your 3-days-ago self do better now?>
 
-## Meta-level feedback
+## 🏛 Meta-level feedback
 
 - Protocol friction: <Was PACER too heavy or helpful?>
 - System effectiveness: <Did the loop create clarity or chaos?>
@@ -25,3 +25,7 @@
 ## Quote
 
 > "Insert a quote or reflection sentence that encapsulates this week."
+
+---
+
+> _Powered by Second Mind OS_

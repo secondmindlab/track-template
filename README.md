@@ -1,4 +1,4 @@
-# Track Template by Second Mind OS (SMOS)
+# Track Template Protocol by Second Mind OS (SMOS)
 
 > Track your thinking. Loop your learning. Build public artifacts. Powered by SMOS.
 
@@ -41,13 +41,15 @@ This is the **official template** for constructing trackable learning systems fr
 
 ```mermaid
 graph TD
-  A[Engage with Content] --> B[Build Project / Problem]
+  A[Engage with Content] --> B[Note Docs / Build Project / Problem]
   B --> C[P.A.C.E.R. Loop]
   C --> D[Write Logs + Loop Claim]
   D --> E[Claim ⌬ Symbol]
   E --> F[Public Output in outputs/]
   F --> G[Emit JSON to Personal Site]
 ```
+
+> Note → Log → Loop → Output
 
 ### 🔁 P.A.C.E.R. Loop Protocol
 
@@ -72,20 +74,22 @@ Each folder in `loop/Week-X/` should contain a `pacer.yaml` or markdown journal 
    → Serve `outputs/` as public-facing artifacts
 
 3. **Loop Structure**
-
+   - New loop via CLI (Recommend) `python scripts/smos.py week-01 --topic="Memory & Pointers"`
    - Drop notes into `docs/`
-   - Launch a loop via `loop/week-01/pacer.yaml`
-   - Push deliverables to `outputs/`
    - Write blockers / insight logs in `logs/`
+   - Launch a loop via `loop/week-01/pacer.yaml`, `loop/week-01/claim.md`, `loop/week-01/reflect.md`
+   - Push deliverables to `outputs/`
 
 #### Example:
 
 ```bash
 track-cs50x/
 ├── docs/week-01.md                  # Schema of memory model
+├── logs/YYYY-MM-DD-week-01.md       # Blocker resolution
 ├── loop/week-01/pacer.yaml          # P.A.C.E.R. config
-├── outputs/pset1-mario.md           # Artifact: reflection + code
-├── logs/2025-05-16-pointer-log.md   # Blocker resolution
+├── loop/week-01/claim.md            # Distilled knowledge lock
+├── loop/week-01/reflect.md          # Meta-log & feedback
+├── outputs/week-01-output.md        # Artifact: reflection + code
 ```
 
 #### Naming Convention (Optional):

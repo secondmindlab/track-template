@@ -5,70 +5,53 @@ import os
 import argparse
 from datetime import datetime
 
-TEMPLATE_PACER = """loop_id: {loop_id}
-topic: {topic}
-plan:
-  - TODO: Define objective
-  - TODO: Define scope
-  - TODO: Define constraints
-outputs:
-  - outputs/{loop_id}-output.md
-logs:
-  - logs/{today}-{loop_id}-log.md
-status: in-progress
-claims:
-  - ⌬ TODO: Write symbolic claim
+TEMPLATE_PACER = """loop_id: {loop_id}"""
+
+TEMPLATE_CLAIM = """# ⌬ Claim — {loop_id}: {topic}
+
+---
+
+> _Powered by **Second Mind OS**._
+
+"""
+
+TEMPLATE_REFLECT = """# Reflect — {loop_id}: {topic}
+
+---
+
+> _Powered by **Second Mind OS**._
+
 """
 
 TEMPLATE_NOTE = """# {loop_id} — {topic}
 
-## Concepts
-- 
+---
 
-## Code examples
-- 
+> _Powered by [**Second Mind OS Lab**](https://github.com/secondmindlab) — Protocol-first learning system for cognitive leverage._
 
-## Insight
-- 
-
-## Questions
-- 
 """
 
 TEMPLATE_LOG = """# Log — {today}
 
-## Blockers 🚧
-- 
+---
 
-## Resolutions 🛠️
-- 
+**Powered by Second Mind OS** — _Log-traceable insight loops for deep learning._
 
-## Pings 💡
-- 
 """
 
-TEMPLATE_OUTPUT = """# Output — {loop_id}
+TEMPLATE_OUTPUT = """# Output — {loop_id}: {topic}
 
-## Summary
+---
 
-## Final Code
+> _Powered by Second Mind OS_
 
-## Reflection
-
-## Link
-
-Verified: logs/{today}-{loop_id}-log.md
-
-⌬ Mindstamp: TODO
-
-Powered by Second Mind OS
 """
 
 
 def create_file(path, content):
     with open(path, "w") as f:
         f.write(content)
-    print(f"✅ Created: {path}")
+    print(f"- {path}")
 
 
 def init_loop(loop_id, topic):
@@ -80,10 +63,6 @@ def init_loop(loop_id, topic):
     os.makedirs("outputs", exist_ok=True)
 
     create_file(
-        f"loop/{loop_id}/pacer.yaml",
-        TEMPLATE_PACER.format(loop_id=loop_id, topic=topic, today=today),
-    )
-    create_file(
         f"docs/{loop_id}.md",
         TEMPLATE_NOTE.format(loop_id=loop_id, topic=topic),
     )
@@ -91,8 +70,20 @@ def init_loop(loop_id, topic):
         f"logs/{today}-{loop_id}-log.md", TEMPLATE_LOG.format(today=today)
     )
     create_file(
+        f"loop/{loop_id}/pacer.yaml",
+        TEMPLATE_PACER.format(loop_id=loop_id, topic=topic, today=today),
+    )
+    create_file(
+        f"loop/{loop_id}/claim.md",
+        TEMPLATE_CLAIM.format(loop_id=loop_id, topic=topic),
+    )
+    create_file(
+        f"loop/{loop_id}/reflect.md",
+        TEMPLATE_REFLECT.format(loop_id=loop_id, topic=topic),
+    )
+    create_file(
         f"outputs/{loop_id}-output.md",
-        TEMPLATE_OUTPUT.format(loop_id=loop_id, today=today),
+        TEMPLATE_OUTPUT.format(loop_id=loop_id, topic=topic, today=today),
     )
 
 
