@@ -61,14 +61,13 @@ def init_loop(loop_id, topic):
     os.makedirs("docs", exist_ok=True)
     os.makedirs("logs", exist_ok=True)
     os.makedirs("outputs", exist_ok=True)
+    os.makedirs(f"outputs/{loop_id}", exist_ok=True)
 
     create_file(
         f"docs/{loop_id}.md",
         TEMPLATE_NOTE.format(loop_id=loop_id, topic=topic),
     )
-    create_file(
-        f"logs/{today}-{loop_id}-log.md", TEMPLATE_LOG.format(today=today)
-    )
+    create_file(f"logs/{today}-{loop_id}.md", TEMPLATE_LOG.format(today=today))
     create_file(
         f"loop/{loop_id}/pacer.yaml",
         TEMPLATE_PACER.format(loop_id=loop_id, topic=topic, today=today),
@@ -82,7 +81,7 @@ def init_loop(loop_id, topic):
         TEMPLATE_REFLECT.format(loop_id=loop_id, topic=topic),
     )
     create_file(
-        f"outputs/{loop_id}-output.md",
+        f"outputs/{loop_id}/{loop_id}-output.md",
         TEMPLATE_OUTPUT.format(loop_id=loop_id, topic=topic, today=today),
     )
 

@@ -74,7 +74,7 @@ Each folder in `loop/Week-X/` should contain a `pacer.yaml` or markdown journal 
    → Serve `outputs/` as public-facing artifacts
 
 3. **Loop Structure**
-   - New loop via CLI (Recommend) `python scripts/smos.py week-01 --topic="Memory & Pointers"`
+   - New loop via CLI (Recommend) `python scripts/smos.py week-01-c --topic="Memory & Pointers"`
    - Drop notes into `docs/`
    - Write blockers / insight logs in `logs/`
    - Launch a loop via `loop/week-01/pacer.yaml`, `loop/week-01/claim.md`, `loop/week-01/reflect.md`
