@@ -8,9 +8,9 @@
 **Current Phase:** Debug + Reflection  
 **Related files:**
 
-- `docs/week-01.md`
-- `loop/week-01/pacer.yaml`
-- `outputs/week-01-output.md`
+- `docs/week-01-c.md`
+- `loop/week-01-c/pacer.yaml`
+- `outputs/week-01-c/output.md`
 
 ## 2. 🚧 Blockers / Bugs / Blindspots
 
@@ -41,7 +41,7 @@
 
 ## 6. Next Steps
 
-- Update `outputs/week-01-output.md` with fixed version + ⌬ claims
+- Update `outputs/week-01-c/output.md` with fixed version + ⌬ claims
 - Start new PACER loop for Week-02
 - Share selected insight card to LinkedIn ("⌬ Debug = trace > theory")
 

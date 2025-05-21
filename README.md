@@ -27,15 +27,17 @@ This is the **official template** for constructing trackable learning systems fr
 
 ## Folder Structure
 
-| Folder       | Emoji | Role                                                  |
-| ------------ | ----- | ----------------------------------------------------- |
-| `docs/`      | 🗂️    | Schemas, maps, notes, distilled knowledge             |
-| `logs/`      | 📃    | Daily logs, blockers (`🚧`), insight pings            |
-| `loop/`      | 🔁    | P.A.C.E.R. loops: Plan → Act → Check → Edit → Reflect |
-| `outputs/`   | 🚀    | Public-facing artifacts: blog, repo, showcase         |
-| `track.json` |       | (Optional) Track metadata for integration             |
-| `LICENSE`    |       | MIT License                                           |
-| `README.md`  |       | This Document                                         |
+| Folder       | Symbol | Role                                                  |
+| ------------ | ------ | ----------------------------------------------------- |
+| `docs/`      | 🗂️     | Schemas, maps, notes, distilled knowledge             |
+| `logs/`      | 📃     | Daily logs, blockers (`🚧`), insight pings            |
+| `loop/`      | 🔁     | P.A.C.E.R. loops: Plan → Act → Check → Edit → Reflect |
+| `outputs/`   | 🚀     | Public-facing artifacts: blog, repo, showcase         |
+| `track.json` |        | (Optional) Track metadata for integration             |
+| `LICENSE`    |        | MIT License                                           |
+| `README.md`  |        | This Document                                         |
+
+> All symbols in this repo follow SMOS's [Naming Protocol Emoji](https://github.com/secondmindlab/secondmindlab/blob/19a71aa799d875c2b5dc4b7acda42394bb10f589/meta/naming-protocol-emoji.md). You can either keep this convention or adopt your own style.
 
 ## Protocol Flow
 
@@ -63,7 +65,7 @@ Each learning unit runs through the **P.A.C.E.R. loop** — a minimal feedback p
 | `Edit`    | Refactor, simplify, correct blindspots  |
 | `Reflect` | Meta-log insights, blockers, claims     |
 
-Each folder in `loop/Week-X/` should contain a `pacer.yaml` or markdown journal documenting this cycle.
+Each folder in `loop/week-xx-x/` should contain a `pacer.yaml` or markdown journal documenting this cycle.
 
 ## Usage Instructions
 
@@ -77,19 +79,19 @@ Each folder in `loop/Week-X/` should contain a `pacer.yaml` or markdown journal 
    - New loop via CLI (Recommend) `python scripts/smos.py week-01-c --topic="Memory & Pointers"`
    - Drop notes into `docs/`
    - Write blockers / insight logs in `logs/`
-   - Launch a loop via `loop/week-01/pacer.yaml`, `loop/week-01/claim.md`, `loop/week-01/reflect.md`
+   - Launch a loop via `loop/week-01-c/pacer.yaml`, `loop/week-01-c/claim.md`, `loop/week-01-c/reflect.md`
    - Push deliverables to `outputs/`
 
 #### Example:
 
 ```bash
 track-cs50x/
-├── docs/week-01.md                  # Schema of memory model
-├── logs/YYYY-MM-DD-week-01.md       # Blocker resolution
-├── loop/week-01/pacer.yaml          # P.A.C.E.R. config
-├── loop/week-01/claim.md            # Distilled knowledge lock
-├── loop/week-01/reflect.md          # Meta-log & feedback
-├── outputs/week-01-output.md        # Artifact: reflection + code
+├── docs/week-01-c.md                  # Schema of memory model
+├── logs/YYYY-MM-DD-week-01-c.md       # Blocker resolution
+├── loop/week-01-c/pacer.yaml          # P.A.C.E.R. config
+├── loop/week-01-c/claim.md            # Distilled knowledge lock
+├── loop/week-01-c/reflect.md          # Meta-log & feedback
+├── outputs/week-01-c/output.md        # Artifact: reflection + code
 ```
 
 #### Naming Convention (Optional):

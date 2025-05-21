@@ -68,7 +68,7 @@ Brief description — what did you make / produce?
 - ⌬ Claim: `Memory tracing = 4-layer address mental model`
 - Situation: `While debugging segfault`
 - Impact: `Accelerated understanding of stack/heap`
-- Verified: [`logs/YYYY-MM-DD-week-01.md`](../logs/YYYY-MM-DD-week-01.md)
+- Verified: [`logs/YYYY-MM-DD-week-01-c.md`](../logs/YYYY-MM-DD-week-01-c.md)
 
 ---
 
@@ -76,7 +76,7 @@ Brief description — what did you make / produce?
 
 - Links to doc, forums, other outputs
 
-> 📏 **Protocol Tag**: `Verified: logs/YYYY-MM-DD-week-01.md`  
+> 📏 **Protocol Tag**: `Verified: logs/YYYY-MM-DD-week-01-c.md`  
 > 📣 ⌬ Claim Origin: `"Pointer tracing = mental model of memory layers"`
 
 ---

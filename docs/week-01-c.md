@@ -39,8 +39,8 @@ List insights that are **non-obvious**, and **must be claimed explicitly**, not 
 
 | ⌬ ID | Claim Statement                              | Trigger Point | Verified In               |
 | ---- | -------------------------------------------- | ------------- | ------------------------- |
-| 001  | "A pointer holds an address, not the value"  | Lecture Q\&A  | `logs/2025-05-16-log.md`  |
-| 002  | "Refactoring reveals abstraction boundaries" | During pset   | `loop/week-01/pacer.yaml` |
+| 001  | "A pointer holds an address, not the value"  | Lecture Q\&A  | `logs/YYYY-MM-DD-week-01-c.md`  |
+| 002  | "Refactoring reveals abstraction boundaries" | During pset   | `loop/week-01-c/pacer.yaml` |
 
 ## 🚧 Blockers / Ambiguities
 
@@ -68,8 +68,8 @@ List insights that are **non-obvious**, and **must be claimed explicitly**, not 
 
 | Loop Phase | Linked File                  |
 | ---------- | ---------------------------- |
-| Plan       | `loop/week-01/pacer.yaml`    |
-| Reflect    | `logs/YYYY-MM-DD-week-01.md` |
+| Plan       | `loop/week-01-c/pacer.yaml`    |
+| Reflect    | `logs/YYYY-MM-DD-week-01-c.md` |
 
 ---
 

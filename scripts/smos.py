@@ -81,7 +81,7 @@ def init_loop(loop_id, topic):
         TEMPLATE_REFLECT.format(loop_id=loop_id, topic=topic),
     )
     create_file(
-        f"outputs/{loop_id}/{loop_id}-output.md",
+        f"outputs/{loop_id}/output.md",
         TEMPLATE_OUTPUT.format(loop_id=loop_id, topic=topic, today=today),
     )
 
@@ -90,7 +90,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Initialize a new SMOS learning loop."
     )
-    parser.add_argument("loop_id", type=str, help="Loop ID (e.g. week-01)")
+    parser.add_argument("loop_id", type=str, help="Loop ID (e.g. week-01-c)")
     parser.add_argument(
         "--topic", type=str, required=True, help="Topic or focus of the loop"
     )
