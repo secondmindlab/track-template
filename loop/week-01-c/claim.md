@@ -13,8 +13,8 @@
 
 ## Evidence
 
-- Verified via: [`logs/YYYY-MM-DD-week-01-c.md`](../../logs/YYYY-MM-DD-week-01-c.md)
-- Output artifact: [`outputs/week-01-c/output.md`](../../outputs/week-01-c/output.md)
+- Verified via: [`logs/YYYY-MM-DD-week-01-c.md`](/logs/YYYY-MM-DD-week-01-c.md)
+- Output artifact: [`outputs/week-01-c/output.md`](/outputs/week-01-c/output.md)
 - Source of knowledge: CS50x Lectures + Pset1
 
 ## Note
