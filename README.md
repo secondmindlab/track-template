@@ -37,7 +37,7 @@ This is the **official template** for constructing trackable learning systems fr
 | `LICENSE`    |        | MIT License                                           |
 | `README.md`  |        | This Document                                         |
 
-> All symbols in this repo follow SMOS's [Naming Protocol Emoji](https://github.com/secondmindlab/secondmindlab/blob/19a71aa799d875c2b5dc4b7acda42394bb10f589/meta/naming-protocol-emoji.md). You can either keep this convention or adopt your own style.
+> All symbols in this repo follow SMOS's [Naming Protocol Symbol](https://github.com/secondmindlab/secondmindlab/blob/19a71aa799d875c2b5dc4b7acda42394bb10f589/meta/naming-protocol-symbol.md). You can either keep this convention or adopt your own style.
 
 ## Protocol Flow
 
