@@ -1,6 +1,6 @@
 # ⌬ Claim — Week 01: [Topic]
 
-## 📣 Claim
+## 1. 📣 Claim
 
 - **Fact Lock-in**: (knowledge)  
   Eg: “I understand the difference between stack and heap memory.”
@@ -11,13 +11,13 @@
 - **Insight Shift**: (mindset / abstraction layer upgrade)  
   Eg: “Pointers are not just addresses — they represent indirection, which generalizes to references in high-level langs.”
 
-## Evidence
+## 2. Evidence
 
 - Verified via: [`logs/YYYY-MM-DD-week-01-c.md`](/logs/YYYY-MM-DD-week-01-c.md)
 - Output artifact: [`outputs/week-01-c/output.md`](/outputs/week-01-c/output.md)
 - Source of knowledge: CS50x Lectures + Pset1
 
-## Note
+## 3. Note
 
 This ⌬ **Mindstamp** represents a crystallized loop outcome.
 
