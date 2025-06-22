@@ -29,15 +29,15 @@ This is the **official template** for constructing trackable learning systems fr
 
 | Folder       | Symbol | Role                                                  |
 | ------------ | ------ | ----------------------------------------------------- |
-| `docs/`      | 🗂️     | Schemas, maps, notes, distilled knowledge             |
+| `docs/`      | 📜     | Schemas, maps, notes, distilled knowledge             |
 | `logs/`      | 📃     | Daily logs, blockers (`🚧`), insight pings            |
 | `loop/`      | 🔁     | P.A.C.E.R. loops: Plan → Act → Check → Edit → Reflect |
-| `outputs/`   | 🚀     | Public-facing artifacts: blog, repo, showcase         |
+| `outputs/`   | 📦     | Public-facing artifacts: blog, repo, showcase         |
 | `track.json` |        | (Optional) Track metadata for integration             |
 | `LICENSE`    |        | MIT License                                           |
 | `README.md`  |        | This Document                                         |
 
-> All symbols in this repo follow SMOS's [Naming Protocol Symbol](https://github.com/secondmindlab/secondmindlab/blob/1c5ba0bd92991554d946895a242d989ae0dc3877/meta/naming-protocol-symbol.md). You can either keep this convention or adopt your own style.
+> All symbols in this repo follow SMOS's [Naming Protocol Symbol](https://github.com/smindlab/smindlab/blob/1c5ba0bd92991554d946895a242d989ae0dc3877/meta/naming-protocol-symbol.md). You can either keep this convention or adopt your own style.
 
 ## Protocol Flow
 
@@ -124,7 +124,7 @@ Use as **public fork base** for consistent naming across teams/orgs.
 MIT — use freely under your personal or team workflows.
 
 > **Note**: All forks must include the following in `README.md`:  
-> _Powered by [**Second Mind OS Lab**](https://github.com/secondmindlab) — Protocol-first learning system for cognitive leverage._
+> _Powered by [**Second Mind OS Lab**](https://github.com/smindlab) — Protocol-first learning system for cognitive leverage._
 
 ## Maintained by
 
@@ -133,4 +133,4 @@ Protocol harmony, cognitive precision, outcome-driven learning.
 
 ⚓ Personal mastery is system-driven. Track everything. Reflect ruthlessly. Ship deliberately.
 
-> _Powered by [**Second Mind OS Lab**](https://github.com/secondmindlab) — Protocol-first learning system for cognitive leverage._
+> _Powered by [**Second Mind OS Lab**](https://github.com/smindlab) — Protocol-first learning system for cognitive leverage._

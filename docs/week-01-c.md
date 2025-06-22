@@ -73,4 +73,4 @@ List insights that are **non-obvious**, and **must be claimed explicitly**, not 
 
 ---
 
-> _Powered by [**Second Mind OS Lab**](https://github.com/secondmindlab) — Protocol-first learning system for cognitive leverage._
+> _Powered by [**Second Mind OS Lab**](https://github.com/smindlab) — Protocol-first learning system for cognitive leverage._
