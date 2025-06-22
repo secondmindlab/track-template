@@ -1,4 +1,4 @@
-# Track Template Protocol by Second Mind OS (SMOS)
+# Track Template Protocol by Second Mind OS (SMIND)
 
 > Track your thinking. Loop your learning. Build public artifacts. Powered by SMOS.
 
