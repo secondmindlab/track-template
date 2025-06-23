@@ -1,0 +1,86 @@
+loop_id: week-00-scratch
+verified_via: logs/2025-05-19-week-00-scratch.md
+loop_path: track-cs50x/loop/week-00-scratch
+
+content_stack:
+  - type: LoopSummary
+    description: >
+      Summarize the entire loop (context → hypothesis → validate → result). Used for writing a blog or thread.
+    source:
+      - docs/week-00-scratch.md
+      - loop/week-00-scratch/claim.md
+      - loop/week-00-scratch/pacer.yaml
+      - loop/week-00-scratch/reflect.md
+      - outputs/week-00-scratch/week-00-scratch-output.md
+    output: loop-summary.md
+
+  - type: InsightCard
+    description: >
+      A concise insight from reflect.md or logs. It can be a discovery, realization, or a logic breakdown.
+    source:
+      - logs/2025-05-19-week-00-scratch.md
+      - loop/week-00-scratch/reflect.md
+    output: loop-insight.md and loop-card.png
+
+  - type: ArtifactShowcase
+    description: >
+      Display clear results: source code, product, demo video, files, screenshot.
+    file:
+      - outputs/week-00-scratch/scratch.sb3
+    source: outputs/week-00-scratch
+    output: artifact-card.png (or media embed)
+
+  - type: SystemPrinciple
+    description: >
+      Systematic thinking, methods, and rules derived from the loop, transferable insights.
+    source:
+      - loop/week-00-scratch/reflect.md
+      - loop/week-00-scratch/pacer.yaml
+    output: system-principle.md and principle-card.png
+
+  - type: MetaInsight
+    description: >
+      High-level insights gained from reflecting on multiple loops or relating different loops. Rare but powerful.
+    source:
+      - logs/*
+      - reflect.md
+    output: meta-insight-thread.md and meta-insight.png
+
+  - type: ChallengeSnapshot
+    description: >
+      Highlight a difficult moment, conflict, or twist, creating a sense of a 'hero's arc'.
+    source:
+      - logs/2025-05-19-week-00-scratch.md
+      - reflect.md
+    output: challenge-snapshot.png
+
+  - type: ClaimCard
+    description: >
+      A sharp assumption or question statement to be validated from the loop.
+    source:
+      - loop/week-00-scratch/claim.md
+    output: claim-card.png
+
+  - type: PacerMap
+    description: >
+      Visualize the internal journey according to P.A.C.E.R. for the loop. To train and demonstrate the flow.
+    source:
+      - loop/week-00-scratch/pacer.yaml
+    output: pacer-map.png
+
+  - type: QuoteLog
+    description: >
+      A memorable quote from the logs or reflect. Used for a standalone post.
+    source:
+      - logs/2025-05-19-week-00-scratch.md
+      - reflect.md
+    output: quote-image.png
+
+  - type: BehindTheLoop
+    description: >
+      A deep article discussing meta strategy, systems thinking, or major reflections from this loop.
+    source:
+      - loop/week-00-scratch/reflect.md
+      - logs/*
+      - system ops notes
+    output: behind-the-loop-article.md

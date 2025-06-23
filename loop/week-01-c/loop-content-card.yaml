@@ -1,0 +1,89 @@
+loop_id: week-00-scratch
+verified_via: logs/2025-05-19-week-00-scratch.md
+loop_path: track-cs50x/loop/week-00-scratch
+
+cards:
+  - type: LoopSummary
+    layout: 16:9
+    headline: Week 00 — Logic Without Syntax
+    loop_thesis: Build structured logic using Scratch to grasp CS concepts without syntax
+    key_result: Pset 0 done (3h20m)
+    key_insight: “Programming is structured control over flow and state.”
+    stack: CS50x + MindOS
+    claim: Early log discipline compounds
+    log_ref: week-00-scratch
+    timeframe: 6–12 May 2025
+    source:
+      - loop/week-00-scratch/reflect.md
+      - docs/week-00-scratch.md
+
+  - type: LoopInsight
+    layout: 1:1
+    title: Programming without syntax
+    claim: Logic = control over flow and state. Syntax is optional.
+    source:
+      - logs/2025-05-19-week-00-scratch.md
+      - reflect.md
+
+  - type: ArtifactShowcase
+    layout: 3:2
+    artifact_name: Scratch 2-sprite system
+    description: >
+      - Sprite 1: responds to input with conditional attacks + jump logic  
+      - Sprite 2: loops movement while tracking state
+    file: outputs/week-00-scratch/scratch.sb3
+    tech: MIT Strach
+    runtime: ~h or ~m
+    source: outputs/week-00-scratch
+    cover_image: artifact-card.png
+
+  - type: SystemPrinciple
+    layout: 1:1
+    principle: Always define behavior first, then build logic — not syntax-first.
+    origin: Block-based abstraction clarified control flow structure.
+    source:
+      - reflect.md
+      - pacer.yaml
+
+  - type: MetaInsight
+    layout: 16:9
+    meta_frame: Syntax is accidental complexity.
+    meta_claim: Starting from behavior decouples syntax from systems thinking.
+    loop_scope: week-00-scratch + future loops
+    quote: 'I stopped stacking blocks, and started asking: What behavior am I trying to create?'
+
+  - type: ChallengeSnapshot
+    layout: 3:2
+    moment: Realized I misunderstood what defined a 'script' in Scratch.
+    tension: I was stacking for constraints, not thinking in systems.
+    shift: Turned when I framed the build around player behavior instead of just blocks.
+
+  - type: ClaimCard
+    layout: 1:1
+    hypothesis: Syntax hinders early system thinking.
+    test: Use Scratch to test abstraction-first learning.
+    result: Strong — behavior-led builds felt more transferable.
+    source: loop/week-00-scratch/claim.md
+
+  - type: PacerMap
+    layout: 4:3
+    phases:
+      - Phase: Perceive — “What does the system allow?”
+      - Act: Stack blocks by task
+      - Calibrate: Hit the wall — logic failed despite visual pass
+      - Extend: Parameterize into reusable blocks
+      - Reflect: Shifted from syntax to structure
+    source: pacer.yaml
+
+  - type: QuoteLog
+    layout: 1:1
+    quote: “Programming is structured control over flow and state. Syntax is optional.”
+    speaker: self
+    context: reflect.md
+
+  - type: BehindTheLoop
+    layout: 16:9
+    angle: Why I started with Scratch in a Harvard CS course
+    narrative: >
+      Most CS courses start with C or Python. I started with Scratch to isolate logic from syntax, and track how thinking changes when abstraction is forced.
+    file: behind-the-loop-week-00.md

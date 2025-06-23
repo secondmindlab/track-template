@@ -1,0 +1,28 @@
+{
+  "id": "track-cs50x",
+  "title": "CS50x – Introduction to Computer Science",
+  "author": {
+    "username": "smindlab",
+    "profile": "https://github.com/smindlab"
+  },
+  "repo": "https://github.com/smindlab/track-cs50x",
+  "status": "completed", // "in-progress" | "completed" | "archived"
+  "duration": {
+    "start": "2025-05-01",
+    "end": "2025-06-28"
+  },
+  "loops_completed": 6,
+  "claims_made": 11,
+  "stack": ["C", "Scratch", "Second Mind OS", "P.A.C.E.R.", "Symbol Protocol"],
+  "final_artifact": {
+    "mini_paper": "https://github.com/smindlab/track-cs50x/blob/main/track-mini-paper.md",
+    "loop_card": "https://github.com/smindlab/track-cs50x/blob/main/loop-card.png",
+    "project_repo": "https://github.com/smindlab/cs50x-final-project"
+  },
+  "tags": ["cs50x", "harvard", "secondmind", "self-study", "track"],
+  "highlight": {
+    "claim": "⌬ Greedy ≠ simple — it fits convex domain structure.",
+    "loop_card": "https://github.com/smindlab/track-cs50x/blob/main/loop-card.png"
+  },
+  "last_updated": "2025-06-08"
+}

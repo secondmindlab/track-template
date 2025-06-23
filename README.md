@@ -1,6 +1,6 @@
 # Track Template Protocol by Second Mind OS (SMIND)
 
-> Track your thinking. Loop your learning. Build public artifacts. Powered by SMOS.
+> Track your thinking. Loop your learning. Build public artifacts. Powered by SMIND.
 
 **Canonical template** for learning tracks, project-based skill loops, and knowledge pipelines in the 🧱 Second Mind OS Lab.
 
@@ -27,17 +27,19 @@ This is the **official template** for constructing trackable learning systems fr
 
 ## Folder Structure
 
-| Folder       | Symbol | Role                                                  |
-| ------------ | ------ | ----------------------------------------------------- |
-| `docs/`      | 📜     | Schemas, maps, notes, distilled knowledge             |
-| `logs/`      | 📃     | Daily logs, blockers (`🚧`), insight pings            |
-| `loop/`      | 🔁     | P.A.C.E.R. loops: Plan → Act → Check → Edit → Reflect |
-| `outputs/`   | 📦     | Public-facing artifacts: blog, repo, showcase         |
-| `track.json` |        | (Optional) Track metadata for integration             |
-| `LICENSE`    |        | MIT License                                           |
-| `README.md`  |        | This Document                                         |
+| Folder                | Symbol | Role                                                  |
+| --------------------- | ------ | ----------------------------------------------------- |
+| `docs/`               | 📜     | Schemas, maps, notes, distilled knowledge             |
+| `logs/`               | 📃     | Daily logs, blockers (`🚧`), insight pings            |
+| `loop/`               | 🔁     | P.A.C.E.R. loops: Plan → Act → Check → Edit → Reflect |
+| `outputs/`            | 📦     | Public-facing artifacts: blog, repo, showcase         |
+| `track-mini-paper.md` |        | Artifact: track mini paper                            |
+| `loop-card.png `      |        | Track quote                                           |
+| `track.json`          |        | Track metadata for integration                        |
+| `LICENSE`             |        | MIT License                                           |
+| `README.md`           |        | This Document                                         |
 
-> All symbols in this repo follow SMOS's [Naming Protocol Symbol](https://github.com/smindlab/smindlab/blob/1c5ba0bd92991554d946895a242d989ae0dc3877/meta/naming-protocol-symbol.md). You can either keep this convention or adopt your own style.
+> All symbols in this repo follow SMIND's [Naming Protocol Symbol](https://github.com/smindlab/smindlab/blob/1c5ba0bd92991554d946895a242d989ae0dc3877/meta/naming-protocol-symbol.md). You can either keep this convention or adopt your own style.
 
 ## Protocol Flow
 
@@ -76,22 +78,26 @@ Each folder in `loop/week-xx-x/` should contain a `pacer.yaml` or markdown journ
    → Serve `outputs/` as public-facing artifacts
 
 3. **Loop Structure**
-   - New loop via CLI (Recommend) `python scripts/smos.py week-01-c --topic="Memory & Pointers"`
+   - New loop via CLI (Recommend) `python scripts/smind.py week-01-c --topic="Memory & Pointers"`
    - Drop notes into `docs/`
    - Write blockers / insight logs in `logs/`
    - Launch a loop via `loop/week-01-c/pacer.yaml`, `loop/week-01-c/claim.md`, `loop/week-01-c/reflect.md`
    - Push deliverables to `outputs/`
 
-#### Example:
+#### Example: Schema
 
 ```bash
 track-cs50x/
-├── docs/week-01-c.md                  # Schema of memory model
-├── logs/YYYY-MM-DD-week-01-c.md       # Blocker resolution
-├── loop/week-01-c/pacer.yaml          # P.A.C.E.R. config
-├── loop/week-01-c/claim.md            # Distilled knowledge lock
-├── loop/week-01-c/reflect.md          # Meta-log & feedback
-├── outputs/week-01-c/output.md        # Artifact: reflection + code
+├── docs/week-01-c.md                        # Schema of memory model
+├── logs/YYYY-MM-DD-week-01-c.md             # Blocker resolution
+├── loop/week-01-c/pacer.yaml                # P.A.C.E.R. config
+├── loop/week-01-c/claim.md                  # Distilled knowledge lock
+├── loop/week-01-c/reflect.md                # Meta-log & feedback
+├── outputs/week-01-c/week-01-c-output.md    # Artifact: reflection + code
+├── track-mini-paper.md                      # Artifact: track mini paper
+├── loop-card.png                            # Track quote
+├── track.json                               # Output: track index
+├── README.md
 ```
 
 #### Naming Convention (Optional):
